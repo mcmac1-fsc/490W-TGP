@@ -18,7 +18,7 @@ All modules output data in the following structure:
   "event_date": "",
   "permits": [],
   "staff_count": 0
-}
+}```
 
 ---
 

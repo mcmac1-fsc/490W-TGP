@@ -24,7 +24,7 @@ All modules output data in the following structure:
 
 ## Normalization example
 
-def normalize_vendor(text):
+```def normalize_vendor(text):
     return {
         "foods": [w.strip() for w in text.split(",")],
         "equipment": [],

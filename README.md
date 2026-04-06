@@ -1,2 +1,21 @@
-# 490W-TGP
-Repo for TGP - Spring 2026 Capstone
+# Compliance Intelligence Prototype
+
+This repository contains the technical deliverables for our AIM 490W Term Group Project.  
+The project simulates an AI-driven compliance assistant for mobile food vendors.
+
+---
+
+## Project Schema
+
+All modules output data in the following structure:
+
+```json
+{
+  "foods": [],
+  "equipment": [],
+  "allergens": [],
+  "event_location": "",
+  "event_date": "",
+  "permits": [],
+  "staff_count": 0
+}

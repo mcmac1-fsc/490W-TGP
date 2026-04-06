@@ -19,3 +19,21 @@ All modules output data in the following structure:
   "permits": [],
   "staff_count": 0
 }
+
+---
+
+## Normalization example
+
+def normalize_vendor(text):
+    return {
+        "foods": [w.strip() for w in text.split(",")],
+        "equipment": [],
+        "allergens": [],
+        "event_location": "",
+        "event_date": "",
+        "permits": [],
+        "staff_count": 0
+    }
+
+normalize_vendor("tacos, birria, rice")
+

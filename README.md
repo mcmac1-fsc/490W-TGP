@@ -40,6 +40,11 @@ normalize_vendor("tacos, birria, rice")
 
 -----
 
+## Data Ingestion Note
+
+The data_pipeline modules are designed to process ~165,000 records from the Suffolk County Open Data portal. Due to GitHub file size constraints, the raw CSV datasets are maintained in local storage for model training, while the extraction logic is provided here for review.
+
+-----
 
 ## Technical Execution & Modules
 
